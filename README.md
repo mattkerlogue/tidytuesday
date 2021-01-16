@@ -1,5 +1,5 @@
 # tidytuesday
-A repo for storing tidytuesday analysis
+A repo for storing [tidytuesday](https://github.com/rfordatascience/tidytuesday) analysis.
 
 ### 2021-01-12: Tate Collection
 
