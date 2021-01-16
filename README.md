@@ -3,7 +3,7 @@ A repo for storing [tidytuesday](https://github.com/rfordatascience/tidytuesday)
 
 ### 2021-01-12: Tate Collection
 
-Script: 2021/2021-01-12_tate_collection.R
+Script: [2021/2021-01-12_tate_collection.R](2021/2021-01-12_tate_collection.R)
 
 Output: Visualisation of the Tate Collection by reason of acquisition.
 
