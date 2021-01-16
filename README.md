@@ -24,4 +24,4 @@ The `creditLine` variable in the `artwork` dataset was re-coded to generate reas
 
 The number of works by reason for acquisition and year of painting was then plotted.
 
-![]("2021/2021-01-12_tate_reasons_art_labelled.png")
+![](2021/2021-01-12_tate_reasons_art_labelled.png)
