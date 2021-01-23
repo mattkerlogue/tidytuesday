@@ -52,7 +52,7 @@ why_year <- why_work %>%
   mutate(decade = str_sub(year, 3, 3),
          reason = str_wrap(reason, 10)) %>%
   drop_na() %>%
-  filter(reason != "other") %>%
+  filter(reason != "other")
 
 
 why_year_reasons <- why_year %>%
