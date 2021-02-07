@@ -1,6 +1,22 @@
 # tidytuesday
 A repo for storing [tidytuesday](https://github.com/rfordatascience/tidytuesday) analysis.
 
+### 2021-02-12: HBCU data
+
+Script: [2021/2021-02-02_hbcu.R](2021/2021-02-02_hbcu.R)
+
+Output: Annotated graph of High School and College graduate levels showing the changing attainment gap between White and Black people aged 25 and over in the US.
+
+![](2021/2021-02-02_hbcu.png)
+
+### 2021-01-19: 2019 Kenya Census
+
+Script: [2021/2021-01-26_plastics.R](2021/2021-01-26_plastics.R)
+
+Output: Visualisation of Break Free from Plastic's 2020 Brand Audit showing the nine most prevalent brands.
+
+![](2021/2021-01-26_plastics.png)
+
 ### 2021-01-19: 2019 Kenya Census
 
 Script: [2021/2021-01-19_kenya_census.R](2021/2021-01-12_kenya_census.R)
