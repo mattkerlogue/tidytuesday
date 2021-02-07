@@ -134,7 +134,7 @@ label_text <- c(
 label_df <- tibble(
   label = label_text,
   x = 2018,
-  y = c(90, 35),
+  y = c(90, 37),
   box.fill = c("#e7d4e8", "#d9f0d3")
 )
 
@@ -153,7 +153,7 @@ ggplot(overall_gap, aes(x = year, colour = viz_group)) +
            label = "High School graduates", hjust = 0, size = 3,
            colour = colour_vals[1], fontface = "bold",
            family = "Junction")+
-  annotate("text", x = 2018, y = 38,
+  annotate("text", x = 2018, y = 40,
            label = "College graduates", hjust = 0, size = 3,
            colour = colour_vals[4], fontface = "bold",
            family = "Junction") +
@@ -172,7 +172,10 @@ ggplot(overall_gap, aes(x = year, colour = viz_group)) +
   coord_cartesian(expand = FALSE) +
   labs(
     title = "High School and College Graduates in the US, 1910-2016",
-    subtitle = "Highlighting the changing attainment gap between white and black Americans aged 25 and over since 1940"
+    subtitle = "Highlighting the changing attainment gap between white and black Americans aged 25 and over since 1940",
+    caption = paste0("Source: National Centre for Education Statistics, 2020 | ",
+                     "Visualisation: Matt Kerlogue, @mattkerlogue | ",
+                     "http://github.com/mattkerlogue/tidytuesday")
   ) +
   scale_colour_manual(values = colour_vals) +
   scale_y_continuous(
@@ -192,4 +195,6 @@ ggplot(overall_gap, aes(x = year, colour = viz_group)) +
     panel.grid.minor = element_blank(),
     legend.position = "none",
     plot.title = element_text(size = 25, family = "Teko"),
+    plot.caption = element_text(size = 8, colour = "grey40",
+                                margin = margin(t = 12, unit = "pt"))
   )
