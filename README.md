@@ -1,6 +1,15 @@
 # tidytuesday
 A repo for storing [tidytuesday](https://github.com/rfordatascience/tidytuesday) analysis.
 
+### 2021-06-29: London Animal Rescues
+
+Script: [2021/2021-06-29_london_animals.R](2021/2021-06-29_london_animals.R)
+
+Output: Six maps of animal rescues in London 2009-2021 by ward showing the number of rescues of different animal groups
+
+![](2021/2021-06-29_london_animals.png)
+
+
 ### 2021-02-12: HBCU data
 
 Script: [2021/2021-02-02_hbcu.R](2021/2021-02-02_hbcu.R)
